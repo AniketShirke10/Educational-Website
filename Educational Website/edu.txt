@@ -1,0 +1,73 @@
+1. CSS variables
+2. CSS Grid & Flexbox
+3. BEM (Block Element Modifier)
+4. CSS units for Responsive Design (vh,vw, fr, %)
+5. CSS Transitions & Animations
+6. SwiperJS for Slides
+7. CSS Media Queries 
+
+Step1: Creating all the required files
+step2: Embedding the emet code in main html file
+step3: link the css files in the head section
+step4: Start creating a nav bar in body section
+    -> From our nav menu we are going to have some buttons and those buttons are only going to be visible on tablets or mobile phones
+step5: Writing the css for the basic tags that we are going to use in whole project
+step6: Writing css for the nav bar
+step7: Creating the header in the html file inside the body Element
+step8: Writing the css for the header 
+step9: Writing the Categories in the html inside the body element 
+step10: Writing the CSS for the Categories section 
+step11: Styling the Icons 
+step12: Adding scroll style (color) to the navbar with help of javascript and window-scroll class in css
+step13: Writing HTML for courses section
+Step14: Adding CSS to the courses section
+Step15: Writing HTML for the Frequently asked question section
+Step16: Adding CSS to the Frequently asked question section.
+step17: Writing a class as open for opening the answers and writing Js for IT 
+step18: For adding swpping functionality to the testimonials we are going to use SwiperJS
+    -> visit swiper.js -> get started -> use swiper from CDN -> copy the css and insert into the html file -> now copy the script and and add it to the html file
+step19: Writing HTML for the footer section
+step20: Adding Style to the footer section
+
+---> Desktop version of the Project is ready 
+---> Now we are heading of to make it Responsive 
+---> Here we are going to write two media Queries
+-> 1) media query for tablets
+-> 2) media query for Mobile Phones
+
+Responsive for the tablets
+step1: Writing Media query for the navbar section
+step2: Adding javascript for the menu section i.e. show nav bar after clicking on menu icon
+step3: Adding Animations to the menu bar with the help of @keyframes in the css media query section and make some changes accordingly inside the -- .nav-menu li -- in the css file inside media query section 
+step4: Writing media query for the Header,category,courses,testimonail,faq's and footer 
+
+Responsive for the phones
+
+Building the about page
+step1: Copy the code upto navbar and of the footer in the about section
+step2: Writing CSS for the about section
+step3: Writing media queries for the about section
+
+Building the courses page
+step1: Copy the code upto navbar and of the footer in the about section also copy the courses from the main html file and add some more courses 
+step2: we dont need to write the css for the courses as it is adopted from the main css file
+step3: Writing media queries for the courese section
+
+Building the Contact page
+step1: Copy the code upto navbar and of the footer in the contact section and adding contact details and form section 
+step2: Writing CSS for the contact and form section
+step3: Writing media queries for the contact section
+step4: Now for adding functionality of user to send message we are going to use "formspree.io"
+
+For adding the texture we are going to add a bg-texture.png file to in every html file inside the head element inside style
+
+<style>
+    body {
+        background-image: url("./Images/bg-texture.png");
+    }
+</style>
+
+-- Paste this in all the html files before the end of head and inside style
+
+
+1 rem = 16px
